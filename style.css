@@ -88,7 +88,7 @@ body {
 
 /* nav-bar css */
 .hp-nav-menu-v3 {
-  gap: 20px;
+  gap: 16px;
 }
 
 .hp-nav-link-v3 {
@@ -162,7 +162,7 @@ body {
 }
 
 .btn-know-more {
-  background-color: #1a5dbf;
+  background-color: #267ae9;
   color: white;
   font-weight: 600;
   padding: 0.7rem 1.5rem;
@@ -647,7 +647,7 @@ body {
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 30px;
   align-items: start;
 }
 
@@ -667,9 +667,9 @@ body {
 }
 
 .section-title {
-  font-size: 38px;
-  font-weight: 300;
-  color: #6c7278;
+  font-size: 30px;
+  font-weight: 100;
+  color: #443a44;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   line-height: 1.1;
@@ -765,13 +765,13 @@ body {
 .news-list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .news-item {
   display: flex;
   align-items: flex-start;
-  gap: 24px;
+  gap: 30px;
 }
 
 .news-thumb {
@@ -907,6 +907,9 @@ body {
   margin-bottom: 20px;
 }
 
+.hp-footer-logo span{
+  font-size: 20px;
+}
 .hp-logo-badge {
   display: inline-flex;
   align-items: center;
@@ -929,10 +932,10 @@ body {
 }
 
 .hp-footer-desc {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 400;
   color: #4a536e;
-  line-height: 1.85;
+  line-height: 2;
 }
 
 /* Right Product Block */
@@ -996,12 +999,13 @@ body {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  color: white;
 }
 
 .hp-country-selected {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 15px;
   font-size: 20px;
   font-weight: 700;
   color: #ffffff;
@@ -1019,9 +1023,9 @@ body {
 }
 
 .hp-country-selected i {
-  font-size: 13px;
-  color: #8b95b5;
-  margin-left: 4px;
+  font-size: 30px;
+  color: white;
+  margin-left: 6px;
 }
 
 .hp-country-menu {
@@ -1078,7 +1082,6 @@ body {
   width: 293px;
   border-right: 1px solid #1a2140;
 }
-
 .hp-footer-socials a {
   width: 34px;
   height: 34px;
@@ -1092,7 +1095,6 @@ body {
   text-decoration: none;
   transition: background-color 0.3s ease;
 }
-
 .hp-footer-socials a:hover {
   color: #595f7c;
 }
@@ -1179,13 +1181,13 @@ body {
 
 /* Bottom Copyright Bar */
 .hp-footer-bottom {
-  background-color: #070b19;
+  background-color: #090d20;
   text-align: center;
   padding: 18px 15px;
 }
 
 .hp-footer-bottom p {
-  font-size: 10px;
-  font-weight: 400;
-  color: #3d455e;
+  font-size: 13px;
+  font-weight: 300;
+  color: #595f7c;
 }
