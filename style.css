@@ -6,7 +6,7 @@
 
 body {
   background-color: #ffffff;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 /* top-bar css */
@@ -88,20 +88,21 @@ body {
 
 /* nav-bar css */
 .hp-nav-menu-v3 {
-  gap: 16px;
+  gap: 10px;
 }
-
 .hp-nav-link-v3 {
   color: #19506d;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.3px;
-  padding: 6px 4px !important;
+  padding: 30px 10px !important;
   transition: color 0.2s;
   background: none;
   box-shadow: none;
 }
-
+.img{
+  padding-top: 25px;
+}
 .hp-nav-link-v3.active {
   color: #111111 !important;
   font-weight: 700;
@@ -129,12 +130,12 @@ body {
 
 /* hero-section-css */
 .hero-section {
-  background-color: #f3f4f6;
+  background-color: #f0f4f6;
   padding: 4rem 0 7rem 0;
   position: relative;
 }
 .hero-section .container {
-  padding-top: 100px !important;
+  padding-top: 130px !important;
 }
 .hero-title-sub {
   font-size: 15px;
@@ -180,6 +181,7 @@ body {
 .features-container {
     position: relative;
     z-index: 10;
+    margin-bottom: -105px;
     padding: 0px !important;
 }
 .feature-card {
@@ -212,7 +214,7 @@ body {
 .domain-section {
   background-color: #2176dc;
   color: #ffffff;
-  padding: 45px 150px;
+  padding: 30px 150px;
 }
 
 /* Left Side Typography */
@@ -258,6 +260,7 @@ body {
 
 .custom-domain-group .form-select {
   width: 180px;
+  padding-left:20px ;
   border-left: 1px solid #e0e0e0;
   font-size: 15px;
   color: #555;
@@ -297,7 +300,8 @@ body {
 /* chose-section css */
 
 .hp-why-section {
-  padding: 70px 0;
+  padding: 80px 0 50px;
+  margin-bottom: 80px;
   background-color: #ffffff;
 }
 
@@ -337,18 +341,18 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 35px;
-  row-gap: 50px;
+  row-gap: 100px;
 }
 
 .hp-item {
   display: flex;
   align-items: flex-start;
-  gap: 18px;
+  gap: 20px;
 }
 
 .hp-icon {
   flex-shrink: 0;
-  width: 46px;
+  width: 50px;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -357,19 +361,22 @@ body {
 
 .hp-icon img {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  padding-right: 20px;
   object-fit: contain;
+  cursor: pointer;
 }
 
 .hp-content h3 {
-  font-family: 'Open Sans', sans-serif;
+      font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 700;
   color: #333333;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin: 0;
+  /* margin-top: 15px; */
 }
 
 .hp-content p {
@@ -384,16 +391,16 @@ body {
 /* dedicated-section-css */
 .dedicated {
   background-color: #f3f4f6;
-  padding: 75px 0;
+  padding: 100px 0 10px;
 }
 
 .dedicated-container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 55px 30px;
   display: flex;
   align-items: center;
-  gap: 85px;
+  gap: 90px;
 }
 
 .server {
@@ -405,6 +412,7 @@ body {
 
 .circle {
   position: relative;
+  margin-right: 80px;
   width: 350px;
   height: 350px;
   border-radius: 50%;
@@ -416,17 +424,16 @@ body {
 
 .circle img {
   display: block;
-  width: 180px;
+  width: 150px;
   height: auto;
   object-fit: contain;
 }
-
 .price-badge {
   position: absolute;
   top: 22px;
   right: -28px;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   background-color: #42b6ff;
   color: white;
@@ -448,7 +455,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   top: -7.5px;
-  margin-right: 1px;
+  margin-right: 2px;
 }
 
 .price-period {
@@ -460,35 +467,42 @@ body {
 
 .detail {
   flex: 1;
-  max-width: 540px;
+  max-width: 600px;
 }
 
 .subtitle {
   display: block;
-  font-size: 11px;
+  font-size: 20px;
   font-weight: 700;
   color: #444444;
   letter-spacing: 0.8;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
+  margin-top: 14px;
 }
 
 .title {
+      /* font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 48px;
+    margin-bottom: 30px; */
   font-size: 36px;
   font-weight: 100;
   color: #666666;
   letter-spacing: 1.2px;
   line-height: 1.15;
-  margin-bottom: 18px;
+  margin-bottom: 30px;
 }
 
 .desc {
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
   color: #888888;
   line-height: 1.65;
   margin-bottom: 24px;
 }
-
+.desc p{
+  margin-top: -30px;
+}
 .dedicated-features {
   list-style: none;
   display: grid;
@@ -530,16 +544,16 @@ body {
 /* shared-hosting css */
 .shared {
   background-color: white;
-  padding: 75px 0;
+  padding: 80px 0;
 }
 
 .shared-container {
-  max-width: 1140px;
+  max-width: 1160px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 20px 20px;
   display: flex;
   align-items: center;
-  gap: 85px;
+  gap: 90px;
 }
 
 .shared-features {
@@ -547,7 +561,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   gap: 14px 35px;
-  margin-bottom: 28px;
+  margin-bottom: 30px;
 }
 
 .shared-features li {
@@ -579,8 +593,9 @@ body {
 
 .shared-circle {
   position: relative;
-  width: 380px;
-  height: 380px;
+  margin-left: 70px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   background-color: #f3f4f6;
   display: flex;
@@ -590,7 +605,7 @@ body {
 
 .shared-circle img {
   display: block;
-  width: 250px;
+  width: 150px;
   height: auto;
   object-fit: contain;
 }
@@ -681,7 +696,7 @@ body {
   justify-content: space-between;
   background-color: #e4ebf1;
   max-width: 550px;
-  height: 300px;
+  height: 340px;
   padding: 10px 10px 0 10px;
 }
 
@@ -719,13 +734,13 @@ body {
 }
 
 .quote-highlight {
-  font-size: 13.5px;
+  font-size: 15px;
   color: #7d858c;
-  line-height: 1.55;
+  line-height: 2;
 }
 
 .quote-desc {
-  font-size: 13px;
+  font-size: 15px;
   color: #8c949c;
   line-height: 1.65;
   padding-left: 52px;
@@ -806,13 +821,11 @@ body {
   margin-bottom: 8px;
   max-width: 500px;
 }
-
 .news-time {
   font-size: 12px;
   color: #b8bfc6;
   display: block;
 }
-
 /* footer-section css */
 .hp-footer-wrapper {
   background-color: #0e1326;
@@ -821,13 +834,12 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
-
 .hp-pure-contact-wrapper {
+ margin: -65px 0 80px 0;
   width: 100%;
   font-family: 'Segoe UI', Arial, sans-serif;
   box-sizing: border-box;
 }
-
 .hp-pure-contact-bar {
   max-width: 1140px;
   margin: 0 auto;
@@ -837,38 +849,37 @@ body {
   align-items: stretch;
   color: #ffffff;
 }
-
 .hp-pure-box {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 24px 15px;
+  padding: 40px 20px;
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.5px;
   box-sizing: border-box;
   color: #fff;
+  cursor: pointer;
 }
-
 .infoo {
   color: #fff;
   font-size: 20px;
 }
-
 .hp-pure-box i {
-  font-size: 17px;
+  font-size: 30px;
+  margin-right: 20px;
+  line-height: 30px;
+    display: inline-block;
+    vertical-align: sub;
 }
-
 .hp-pure-box:hover {
   color: black;
 }
-
 .hp-pure-box:hover .infoo {
   color: black;
 }
-
 .hp-pure-border {
   border-left: 1px solid rgba(255, 255, 255, 0.25);
   border-right: 1px solid rgba(255, 255, 255, 0.25);
